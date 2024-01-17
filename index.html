@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <script src="https://kit.fontawesome.com/403ac98a25.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="stopwatch">
+      <div class="header">
+        <div id="display">00:00:00</div>
+        <button id="startBtn" onclick="start()">Start</button>
+        <button id="pauseBtn" onclick="pause()">Pause</button>
+        <button id="resetBtn" onclick="reset()">Reset</button>
+        <button id="flagBtn" onclick="flag()">Flag</button>
+      </div>
+      <div class="Flist">
+        <ul id="flagsList"></ul>
+      </div>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
